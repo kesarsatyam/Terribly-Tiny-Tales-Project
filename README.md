@@ -23,17 +23,16 @@ To see go to http://sat123.pythonanywhere.com/
 Few screenshots of the inputs from the website.
 
 USER INPUT 5
-![](Images/Home1.JPG)
-![](Images/output1.JPG)
+
+<img src="Images/Home1.JPG" width=500>
+<img src="Images/output1.JPG" width=500>
 
 User INPUT 10
 
-![](Images/Home3.JPG)
+<img src="Images/Home3.JPG" width=500>
 <img src="Images/output3.JPG" width=500>
 
 User INPUT 50
 
+<img src="Images/Home4.JPG" width=500>
 <img src="Images/output4.JPG" width=500>
-
-![](Images/Home4.JPG)
-![](Images/output4.JPG)
