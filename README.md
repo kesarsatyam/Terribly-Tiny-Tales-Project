@@ -29,7 +29,7 @@ USER INPUT 5
 User INPUT 10
 
 ![](Images/Home3.JPG)
-![](Images/output3.JPG)
+<img src="Images/output3.JPG" width=500>
 
 User INPUT 50
 
