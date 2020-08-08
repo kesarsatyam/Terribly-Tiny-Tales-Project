@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
-<!-- Adding some style to table (OPTIONAL) -->
 <style type="text/css">
     th:tr{
         color: orange;
@@ -23,17 +22,15 @@
 </style>
 <body>
 <table style="margin-left: auto; margin-right: auto;">
-<!-- Table headers -->
     <th>
         <tr style="color: red; ">
         <td>Words</td>
         <td>Frequency</td>
-</tr>
+        </tr>
     </th>
 <h2> The top {{user}} words and their frequencies from the file in the table </h2><br>
-<!-- For loop logic of jinja template -->
+
 {%for key,value in content%}
-<!-- table rows -->
 <tr>
     <td>{{ key }}</td>
     <td>{{ value }}</td>
@@ -42,6 +39,3 @@
 </table>
 </body>
 </html>
-
-
-
