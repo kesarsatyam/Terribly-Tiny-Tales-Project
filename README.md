@@ -15,17 +15,17 @@
    5. Display the top N words and their frequency of occurrence in the frontend, in a tabular format.
  
 ## Installation required Dependicies
-In this project we only need to install flask in our python environment-
+In this project we only need to install flask in our python environment from command promt-
   * pip install Flask
   
 ## Below are the steps and components of the code which i have used in this project.
 There are two components in the project:
 1. Backend (FILE: app.py)
-2. Frontend (FILE: Home.html,Output.html) {In templates folder}
+2. Frontend (FILE: Home.html,Output.html) {all the html files should be in templates folder otherwise flask framework will not able to recognise it.}
 
 ### STEPS
 ** After sucessfully installing the package first we need to take user input from the front end and send to backend to do the backend work.
-When we run the app file we got the local server link provided by flask framework then we return the render_template ( This is where one can take advantage of Jinja2 template engine, on which Flask is based. Instead of returning hardcode HTML from the function, a HTML file can be rendered by the render_template() function.) in which i have made Home.html file which have one placeholder box whuch takes the number as input and with post method it will send the number to the backend.
+When we run the app file we got the local host link provided by flask framework then we return the render_template ( This is where one can take advantage of Jinja2 template engine, on which Flask is based. Instead of returning hardcode HTML from the function, a HTML file can be rendered by the render_template() function.) in which i have made Home.html file which have one placeholder box whuch takes the number as input and with post method it will send the number to the backend.
 
 ** second task is to fetch the txt file and count the frequency of each words in the given file. So what i did is:
 - Read the file with open function.
