@@ -21,7 +21,7 @@ In this project we only need to install flask in our python environment-
 ## Below are the steps and components of the code which i have used in this project.
 There are two components in the project:
 1. Backend (FILE: app.py)
-2. Frontend (FILE: Home.html,Output.html)
+2. Frontend (FILE: Home.html,Output.html) {In templates folder}
 
 ### STEPS
 ** After sucessfully installing the package first we need to take user input from the front end and send to backend to do the backend work.
