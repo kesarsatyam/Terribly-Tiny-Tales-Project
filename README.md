@@ -1,10 +1,10 @@
 # Terribly-Tiny-Tales-Project-Test
 
 I have hosted this project on pythonanwhere platform.
-##To see go to http://sat123.pythonanywhere.com/
+## To see go to http://sat123.pythonanywhere.com/
 
-#This web app project is made for Terribly Tiny Tales Onile Test round.
-##Task
+# This web app project is made for Terribly Tiny Tales Onile Test round.
+## Task
    1. A front end which accepts a number input N with a Submit button.
 
    2. On entering a value and pressing submit, a request should be sent to the backend.
@@ -16,7 +16,7 @@ I have hosted this project on pythonanwhere platform.
    5. Display the top N words and their frequency of occurrence in the frontend, in a tabular format.
  
 ## Installation required Dependicies
-In this project we only need to install flask
+In this project we only need to install flask in our python environment-
   * pip install Flask
   
 ## Below are the steps and components of the code which i have used in this project.
@@ -24,31 +24,31 @@ There are two components in the project:
 1. Backend (FILE: app.py)
 2. Frontend (FILE: Home.html,Output.html)
 
-###STEPS
-* After sucessfully installing the package first we need to take user input from the front end and send to backend to do the backend work.
+### STEPS
+** After sucessfully installing the package first we need to take user input from the front end and send to backend to do the backend work.
 When we run the local server link provided by flask framework we return the ####render_template ( This is where one can take advantage of Jinja2 template engine, on which Flask is based. Instead of returning hardcode HTML from the function, a HTML file can be rendered by the render_template() function.) in which i have made Home.html file which have one placeholder box whuch takes the number as input and with post method it willl send the number to the backend.
 
-* second task is to fetch the txt file and count the frequency of each words in the given file. so what i did is:
+** second task is to fetch the txt file and count the frequency of each words in the given file. so what i did is:
 - read the file with open function.
 - make a empty dictinoary.
 - using for loop read the txt file line by line and split the line by words and update each words in dictinory with their count.
 - In the end we have final dictionary but we need to do one more task we have to sort it in descending order so that we can get top frequency of wors on the top.
 - I have used sorted function as an argument (object, key,reverse). This function sort the dictionary by it's value in descending order.
 
-* Now we have user input in our backend ( we got 428 uniq words) so in the beginning i have check th if condition if user input is greater than 428 then it will show an error.
+** Now we have user input in our backend ( we got 428 uniq words) so in the beginning i have check th if condition if user input is greater than 428 then it will show an error.
 if user number is below 428 then suppose user enters 5 then I declare a list which will cut the dictionary to the Top N words and finally return the render_template to Output.html file to show the Words and their frequencies in tabular form.
 
-* Output.html In this html file wich will show the words and their frequency in tabular form, I have send the top N index dictionary from the backend file and user input number.
+** Output.html In this html file wich will show the words and their frequency in tabular form, I have send the top N index dictionary from the backend file and user input number.
 Then I have created table which will add more table in for loop as our words increse accrding to the user input.
 
-###In the end we get the desired Tabular Form data on our screen in the form of Top N words with their frequencies. 
+### In the end we will get the desired Tabular Form data on our screen in the form of Top N words with their frequencies. 
   
-##How to Run
+## How to Run
 Step 1: Make sure you have Python package flask.
 
 Step 2: Go to this app's directory and run python app.py file.
 
-##Few screenshots of the inputs from the website.
+## Few screenshots of the inputs from the website.
 
 USER INPUT 5
 
