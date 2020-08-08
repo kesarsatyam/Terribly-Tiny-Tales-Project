@@ -1,7 +1,10 @@
 **You need to import Flask module for web app in you python virtual environment
 
-pip install Flask
+1. pip install Flask
 
 Flask: A simple framework for building complex web app.
 
 vesion: 1.1.2
+
+2. import urllib.request 
+We just need to import urllib.requests. From there, we assign the opening of the url to a variable to read the txt file.
