@@ -17,6 +17,7 @@
 ## Installation required Dependicies
 In this project we only need to install flask in our python environment from command promt-
   * pip install Flask
+  * import urllib.request ( We don't need to install, it is already installed )
   
 ## Below are the steps and components of the code which i have used in this project.
 There are two components in the project:
@@ -27,11 +28,11 @@ There are two components in the project:
 ** After sucessfully installing the package first we need to take user input from the front end and send to backend to do the backend work.
 When we run the app file we got the local host link provided by flask framework then we return the render_template ( This is where one can take advantage of Jinja2 template engine, on which Flask is based. Instead of returning hardcode HTML from the function, a HTML file can be rendered by the render_template() function.) in which i have made Home.html file which have one placeholder box whuch takes the number as input and with post method it will send the number to the backend.
 
-** second task is to fetch the txt file and count the frequency of each words in the given file. So what i did is:
-- Read the file with open function.
+** Second task is to fetch the txt file from the online and count the frequency of each words in the given file. So what i did is:
+- We just need to import urllib.requests. From there, we assign the opening of the given url to a variable.
 - Make a empty dictinoary.
 - Using for loop read the txt file line by line and split the line by words and update each words in dictinory with their count.
-- In the end we have final dictionary but we need to do one more task we have to sort it in descending order so that we can get top frequency of wors on the top.
+- In the end we have final dictionary but we need to do one more task we have to sort it in descending order so that we can get top frequency of words on the top.
 - I have used sorted function as an argument (object, key,reverse). This function sort the dictionary by it's value in descending order.
 
 ** Now we have user input in our backend ( we got 428 uniq words) so in the beginning i have check one the condition if user input is greater than 428 then it will show an error.
