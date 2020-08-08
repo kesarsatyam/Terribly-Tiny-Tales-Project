@@ -9,8 +9,3 @@
    4. From the backend, return the top N most frequently occurring words in this file (do not use a ready made module for frequency computation)
 
    5. Display the top N words and their frequency of occurrence in the frontend, in a tabular format.
-* I have used Python flask web app framework to take user input and send to backend after that i fetch the txt file and 
-  reding the file line by line and put it to in dictinory so that i can get the frequency of each words in the txt file. 
-  After that I have Orederd the dictinory by its value so that i can get top words by their frqunecies.
-* After that we have number (N) then I split the data by N numbers and return the render_template output html file 
-  which will show the top N words with their frequencies in TABULAR format.
