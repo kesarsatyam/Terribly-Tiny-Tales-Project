@@ -23,6 +23,8 @@ def pro():
     input = int(user_input)
     if(input > 428): # check the condition
         return "Please enter the Number below 428"
+    elif (input<0):
+        return "Please enter positive number!!"
     else:
         dict1=sorted_order[:input] # break the dictionary to the users input number (Top Words )
         return render_template('Output.html',content=dict1,user=input) # Finally see the tabular data to send dictinory and user input to html file.
