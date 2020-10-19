@@ -1,5 +1,5 @@
-# Terribly-Tiny-Tales-Project-Test
-# This web app project is made for Terribly Tiny Tales Onile Test Round.
+# Terribly-Tiny-Tales-Project
+# This web app project is made for Terribly Tiny Tales Online Test Round.
 
 ## I have hosted this project on pythonanwhere platform. To see go to http://sat123.pythonanywhere.com/
 
